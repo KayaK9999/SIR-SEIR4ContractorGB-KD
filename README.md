@@ -1,5 +1,6 @@
-# SIR-SEIR4ContractorGreenBehavior-KnowledgeDiffusion
- 科研合作·Python
+# SIR-SEIR4ContractorGB-KD
+SIR-SEIR for Contractor GreenBehavior and Knowledge Diffusion  
+科研合作·`Python`
 
 ## [How to promote the diffusion of green behavior among contractors? Analysis and simulation using the SIR model](https://www.sciencedirect.com/science/article/pii/S0301479723003432)
 
@@ -13,7 +14,7 @@ To promote the green development of the construction industry, improve resource 
 
 Contractors are important participants in achieving sustainable development in the construction industry. Their construction related behaviors in terms of energy-saving and emissions-reduction are guided by green knowledge to continuously improve resource utilization and mitigate environmental impacts through continuous learning. This study analyzes the pathways of green knowledge diffusion in the contractor group based on their knowledge and willingness to transmit green knowledge under the improved SEIR (susceptible-exposedinfectious-recovered) model. Further, the study uses simulation experiments to adjust the conversion coefficients to discover the state changes of contractors at different moments and the favorable knowledge diffusion pathways. The results show that the non-informed state is not affected by the conversion coefficient to rapidly shift to other states. The transformations of noninformed to informed, informed to unconcerned, and disseminator to unconcerned are significantly efficient for knowledge diffusion in the group, and knowledge diffusion can spread to the contractor group very fast. This study facilitates the adoption of green behaviors by contractors inspired by green knowledge and promotes green transformation of the construction industry.
 
-
+## To be continued...
 
 
 
