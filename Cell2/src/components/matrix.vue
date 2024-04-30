@@ -26,7 +26,6 @@ function draw() {
   var colorScale = d3.scaleOrdinal()
     .domain([-1, 0, 1, 2])
     .range(['#FA7070', "#FEFDED", "#C6EBC5", "#2C7865"]);
-    // .range(["red", "yellow", "lightgreen", "darkgreen"]);
 
   var rectSize = 4; // 每个矩形的大小
   svg.selectAll("rect")
