@@ -19,7 +19,8 @@ function init() {
 
 function draw() {
   const svg = d3.select("#cell2")
-    .append("svg")
+
+  svg.append("svg")
     .attr("width", 800)
     .attr("height", 800);
 
@@ -37,6 +38,7 @@ function draw() {
     .attr("width", rectSize)
     .attr("height", rectSize)
     .attr("fill", function (d) { return colorScale(d); });
+
 }
 
 // 获取正态分布的随机值
@@ -67,7 +69,7 @@ function next() {
           if (pos >= 0 && pos < 40000) {
             if (data.value[pos] === 1) {
               let p1 = nD(0.8, 0.1) 
-              if (p1 * p2 < 0.6) {
+              if (p1 * p2 < 0.5) {
                 change = change === 1 ? 1 : -1
               } else {
                 change = 1
@@ -81,7 +83,7 @@ function next() {
           if (pos >= 0 && pos < 40000) {
             if (data.value[pos] === 1) {
               let p1 = nD(0.7, 0.1)
-              if (p1 * p2 < 0.6) {
+              if (p1 * p2 < 0.5) {
                 change = change === 1 ? 1 : -1
               } else {
                 change = 1
