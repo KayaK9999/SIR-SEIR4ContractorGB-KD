@@ -18,7 +18,7 @@ import matrix from './components/matrix.vue'
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
 .left-column {
@@ -28,7 +28,7 @@ import matrix from './components/matrix.vue'
 
 .right-column {
   border-left: 1px saddlebrown solid;
-  flex: 0 0 300px;
+  flex: 0 0 500px;
   /* 右侧栏样式 */
 }
 </style>

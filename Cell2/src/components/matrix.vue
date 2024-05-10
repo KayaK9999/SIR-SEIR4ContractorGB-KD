@@ -7,20 +7,27 @@ let step = ref(1)
 
 function init() {
   let set = new Set()
-  while (set.size != 400) {
+  while (set.size != 40) {
     const i = Math.floor(Math.random() * 40000);
     set.add(i)
   }
   set.forEach(a => {
     data.value[a] = -1
   })
-  data.value[Math.floor(Math.random() * 40000)] = 1
+  // data.value[20100] = 1
+  let set1 = new Set()
+  while (set1.size != 40) {
+    const i = Math.floor(Math.random() * 40000);
+    set1.add(i)
+  }
+  set1.forEach(a => {
+    data.value[a] = 1
+  })
 }
 
 function draw() {
   const svg = d3.select("#cell2")
-
-  svg.append("svg")
+    .append("svg")
     .attr("width", 800)
     .attr("height", 800);
 
@@ -69,7 +76,7 @@ function next() {
           if (pos >= 0 && pos < 40000) {
             if (data.value[pos] === 1) {
               let p1 = nD(0.8, 0.1) 
-              if (p1 * p2 < 0.5) {
+              if (p1 * p2 < 0.4) {
                 change = change === 1 ? 1 : -1
               } else {
                 change = 1
@@ -83,7 +90,7 @@ function next() {
           if (pos >= 0 && pos < 40000) {
             if (data.value[pos] === 1) {
               let p1 = nD(0.7, 0.1)
-              if (p1 * p2 < 0.5) {
+              if (p1 * p2 < 0.4) {
                 change = change === 1 ? 1 : -1
               } else {
                 change = 1
