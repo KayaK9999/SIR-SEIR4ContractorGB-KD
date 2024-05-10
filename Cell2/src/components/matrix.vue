@@ -89,7 +89,7 @@ function next() {
           let p2 = Math.sqrt(2) / 2
           if (pos >= 0 && pos < 40000) {
             if (data.value[pos] === 1) {
-              let p1 = nD(0.7, 0.1)
+              let p1 = nD(0.8, 0.1)
               if (p1 * p2 < 0.4) {
                 change = change === 1 ? 1 : -1
               } else {
