@@ -3,7 +3,7 @@
       <div class="flex items-center overflow-hidden">
         <img class="mx-2" alt="IntelliCircos logo" src="../assets/cell-split.svg" width="36" height="36">
         <span class="text-xl text-[#5F5D9C] text-foreground-foreground font-medium font-rounded">Cellular</span>
-        <span class="text-xl text-[#6196A6] font-rounded">Autonation</span>
+        <span class="text-xl text-[#6196A6] font-rounded">Automation</span>
       </div>
     </header>
   </template>
